@@ -1,7 +1,7 @@
 from socket import *
 
 serverPort = 12000
-serverName = "10.90.2.154"
+serverName = "10.124.6.95"
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 fileName = input("Enter the file name ").encode()
 clientSocket.sendto(fileName, (serverName, serverPort))
